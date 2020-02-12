@@ -1,0 +1,48 @@
+.para {
+  border-bottom: 1px solid #adacac;
+  line-height: 1.8;
+  margin: 4px 30px;
+  display: inline-block;
+  width: 500px;
+  text-align: justify;
+  font-size: 1.3em;
+  vertical-align: middle;
+}
+.rating {
+  display: inline-block;
+  line-height: 1.7;
+  margin-left: 10px;
+}
+.votes {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f5f0f0;
+  border: 1px solid #f08671;
+  font-size: 40px;
+  padding: 10px;
+  user-select: none;
+}
+.fas {
+  font-size: 30px;
+  color: #575352;
+  margin: 0 7px;
+}
+
+.emoji {
+  font-size: 40px;
+  float: right;
+}
+.emoji:hover {
+  animation-name: emoji;
+  animation-duration: 0.5s;
+}
+
+@keyframes emoji {
+  33% {
+    transform: rotate(10deg);
+  }
+  63% {
+    transform: rotate(-20deg);
+  }
+}
